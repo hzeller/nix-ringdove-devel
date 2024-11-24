@@ -1,0 +1,12 @@
+# The SVN checkouts not interesting for git
+librnd/
+pcb-rnd/
+sch-rnd/
+camv-rnd/
+
+# Things in our nix direnv set-up not interesting for git.
+.direnv/
+.envrc
+
+# Emacs backup files
+*~
